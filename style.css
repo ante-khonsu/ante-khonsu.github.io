@@ -39,7 +39,6 @@ nav .wrap { display: flex; justify-content: space-between; align-items: center; 
   color: var(--text);
   text-decoration: none;
   letter-spacing: -0.3px;
-  margin-right: 15px;
 }
 .nav-links { display: flex; gap: 28px; list-style: none; }
 .nav-links a {
@@ -189,4 +188,6 @@ footer .wrap { display: flex; justify-content: space-between; }
   .row { grid-template-columns: 1fr; gap: 4px; }
   .project-card::before { display: none; }
   .wrap { padding: 0 20px; }
+  .nav-links { gap: 14px; }
+  .nav-links a { font-size: 10px; letter-spacing: 0.8px; }
 }
