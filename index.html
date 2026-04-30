@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ante Penić</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Geist+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#" class="nav-logo">Ante Penić</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <div class="hero">
+    <div class="hero-top">
+      <h1 class="hero-name">Ante<br><em>Penić</em></h1>
+      <div class="hero-right">
+        <div class="hero-tag">Open to student &amp; junior roles</div>
+        <p class="hero-bio">
+          Computer science student from Trogir. I write code in C, Python, and whatever the browser needs.
+          Before that, four years working with people — beach rentals and an airport.
+        </p>
+        <div class="hero-links">
+          <a href="https://github.com/ante-khonsu" target="_blank" class="btn btn-primary">GitHub ↗</a>
+          <a href="mailto:antepenic05@gmail.com" class="btn">Email me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section id="about">
+    <div class="section-header"><span class="section-num">01</span><h2 class="section-title">About</h2></div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I started on FESB doing electrical engineering, switched to computer science at the professional studies department in Split — better fit for what I actually want to do.</p>
+        <p>Most of my coding is self-directed. I work through problems in C and Python, build things for the web, and occasionally attempt something more ambitious — like lane detection with OpenCV. I still have a lot to learn.</p>
+        <p>Outside of code: mountaineering, which teaches you that good decision making matters more than being fast. Carries over.</p>
+      </div>
+      <div>
+        <div class="fact"><span class="fact-label">Location</span><span class="fact-value">Trogir, Croatia</span></div>
+        <div class="fact"><span class="fact-label">Age</span><span class="fact-value">21</span></div>
+        <div class="fact"><span class="fact-label">Study</span><span class="fact-value">1st year CS, UDSS Split</span></div>
+        <div class="fact"><span class="fact-label">English</span><span class="fact-value">Professional — daily use</span></div>
+        <div class="fact"><span class="fact-label">Seeking</span><span class="fact-value">Student / junior remote roles</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="section-header"><span class="section-num">02</span><h2 class="section-title">Skills</h2></div>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <div class="skill-block-label">Languages</div>
+        <div class="skill-list">
+          <div class="skill-item"><span>Python</span><span class="dot s"></span></div>
+          <div class="skill-item"><span>C</span><span class="dot s"></span></div>
+          <div class="skill-item"><span>HTML / CSS</span><span class="dot s"></span></div>
+          <div class="skill-item"><span>JavaScript</span><span class="dot m"></span></div>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-block-label">Tools &amp; Libraries</div>
+        <div class="skill-list">
+          <div class="skill-item"><span>OpenCV</span><span class="dot m"></span></div>
+          <div class="skill-item"><span>Git / GitHub</span><span class="dot s"></span></div>
+          <div class="skill-item"><span>Linux CLI</span><span class="dot m"></span></div>
+          <div class="skill-item"><span>Packet Tracer</span><span class="dot m"></span></div>
+          <div class="skill-item"><span>Wireshark</span><span class="dot m"></span></div>
+        </div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-block-label">Other</div>
+        <div class="skill-list">
+          <div class="skill-item"><span>Microsoft Office</span><span class="dot s"></span></div>
+          <div class="skill-item"><span>Networking basics</span><span class="dot m"></span></div>
+          <div class="skill-item"><span>Digital systems</span><span class="dot m"></span></div>
+          <div class="skill-item"><span>Team work</span><span class="dot s"></span></div>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:14px; font-size:11px; color:var(--muted);">● solid &nbsp; ● working knowledge</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-header"><span class="section-num">03</span><h2 class="section-title">Projects</h2></div>
+    <div>
+      <a class="project-card" href="https://github.com/ante-khonsu/OpenCV-Road-Lane-Detection" target="_blank">
+        <div>
+          <div class="project-lang">Python · OpenCV</div>
+          <div class="project-name">Lane Detection <span class="wip">WIP</span></div>
+          <div class="project-desc">Road lane detection using edge detection and Hough transforms. Works fine on clear, straight roads. Falls apart in rain, shadows, or tight curves. Started it to learn OpenCV — ended up more interested in computer vision than I expected.</div>
+        </div>
+        <div class="arrow">↗</div>
+      </a>
+      <a class="project-card" href="https://github.com/ante-khonsu/terminal-calculator" target="_blank">
+        <div>
+          <div class="project-lang">C</div>
+          <div class="project-name">Terminal Calculator</div>
+          <div class="project-desc">Command-line calculator with single-line input parsing, double precision arithmetic, and a division-by-zero check. Built to get a solid handle on C types, scanf, and switch logic before moving on.</div>
+        </div>
+        <div class="arrow">↗</div>
+      </a>
+      <a class="project-card" href="https://github.com/ante-khonsu/web-calculator" target="_blank">
+        <div>
+          <div class="project-lang">HTML · CSS · JavaScript</div>
+          <div class="project-name">Web Calculator</div>
+          <div class="project-desc">Basic calculator in the browser. HTML, CSS, JavaScript — no libraries.</div>
+        </div>
+        <div class="arrow">↗</div>
+      </a>
+      <a class="project-card" href="https://github.com/ante-khonsu/password-generator" target="_blank">
+        <div>
+          <div class="project-lang">Python</div>
+          <div class="project-name">Password Generator</div>
+          <div class="project-desc">CLI tool, configurable character sets and length. First project I wrote start-to-finish without following a tutorial.</div>
+        </div>
+        <div class="arrow">↗</div>
+      </a>
+      <a class="project-card" href="https://github.com/ante-khonsu/email-validator" target="_blank">
+        <div>
+          <div class="project-lang">Python</div>
+          <div class="project-name">Email Validator</div>
+          <div class="project-desc">Simple email validator tool. Can be modified in many ways to fit any needs but the logic stays the same.</div>
+        </div>
+        <div class="arrow">↗</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="section-header"><span class="section-num">04</span><h2 class="section-title">Experience</h2></div>
+    <div class="rows">
+      <div class="row">
+        <div class="row-period">2024</div>
+        <div>
+          <div class="row-title">AI Audio Model Evaluator</div>
+          <div class="row-sub">Freelance</div>
+          <div class="row-desc">Evaluated AI-generated speech samples as part of a remote freelance project. Rated audio quality and naturalness to help improve model training.</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-period">2023 — 2025</div>
+        <div>
+          <div class="row-title">Airport Staff</div>
+          <div class="row-sub">Split Airport</div>
+          <div class="row-desc">Passenger-facing role in a busy international airport. High volume, time pressure, and a lot of problem-solving on the fly — delayed flights, frustrated people, tight deadlines. Good at staying calm in that kind of environment.</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-period">2021 — 2023</div>
+        <div>
+          <div class="row-title">Beach Equipment Rental</div>
+          <div class="row-sub">Okrug Gornji</div>
+          <div class="row-desc">Running sun lounger rentals for the municipality over two summers. Handled payments, managed equipment, dealt with a lot of different people every day — mostly tourists, which means mostly in English.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="section-header"><span class="section-num">05</span><h2 class="section-title">Education</h2></div>
+    <div class="rows">
+      <div class="row">
+        <div class="row-period">2025 — present</div>
+        <div>
+          <div class="row-title">BSc Computer Science</div>
+          <div class="row-sub">UDSS Split — Sveučilišni odjel za stručne studije</div>
+          <div class="row-desc">Relevant coursework: Networking (Packet Tracer, Wireshark), Web Development, Programming, Programming Methods &amp; Abstractions, Digital Systems, Linux Practicum, Mathematics I &amp; II.</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-period">2024 — 2025</div>
+        <div>
+          <div class="row-title">Electrical Engineering (transferred)</div>
+          <div class="row-sub">FESB Split</div>
+          <div class="row-desc">Completed one year before switching to computer science.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="section-header"><span class="section-num">06</span><h2 class="section-title">Contact</h2></div>
+    <div class="contact-info">
+      <a href="mailto:antepenic05@gmail.com" class="contact-link">antepenic05@gmail.com</a>
+      <a href="https://github.com/ante-khonsu" target="_blank" class="contact-link">github.com/ante-khonsu</a>
+      <span class="contact-link" style="cursor:default;">Trogir, Croatia</span>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <span class="footer-text">Ante Penić</span>
+    <span class="footer-text">antepenic05@gmail.com</span>
+  </div>
+</footer>
+
+</body>
+</html>
